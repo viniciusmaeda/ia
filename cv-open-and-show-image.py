@@ -8,7 +8,7 @@ imageGrayScale = cv2.imread('./assets/bolachas.png', 0) # gray scale image
 # imageGrayScale = cv2.imread('./assets/bolachas.png', 1) # color image (original)
 
 # show image
-cv2.imshow('Gray Scale Image', imageGrayScale)
+cv2.imshow('Grayscale Image', imageGrayScale)
 
 # wait for a key press to close window
 cv2.waitKey(0)
@@ -17,4 +17,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # create a image
-cv2.imwrite('./temp/imageGrayScale.png', imageGrayScale)
+cv2.imwrite('./temp/imageGrayscale.png', imageGrayScale)
