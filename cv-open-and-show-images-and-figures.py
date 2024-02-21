@@ -27,12 +27,3 @@ cv.moveWindow('Bordas', 0, img.shape[0]+120)
 # fecha as janelas ao pressionar qualquer tecla
 cv.waitKey(0)
 cv.destroyAllWindows()
-
-
-
-
-
-
-
-
-
